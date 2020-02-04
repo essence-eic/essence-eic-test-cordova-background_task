@@ -1,6 +1,8 @@
 {
-  "name": "test_cordova-background_task",
+  "name": "backgroundTest",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

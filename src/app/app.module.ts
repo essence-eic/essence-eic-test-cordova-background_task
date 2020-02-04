@@ -7,6 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { BackgroundMode } from '@ionic-native/background-mode';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -24,6 +26,7 @@ import { HomePage } from '../pages/home/home';
   providers: [
     StatusBar,
     SplashScreen,
+    BackgroundMode,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
